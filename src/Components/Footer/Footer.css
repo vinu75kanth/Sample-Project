@@ -1,0 +1,35 @@
+.footer{
+    background-color: darkblue;
+    width: 98%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer p{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.footer ul{
+    padding: 0;
+    display: flex;
+}
+.footer ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+
+
+/*-----------Media Query----------*/
+@media (max-width:650px){
+    .footer{
+        display: block;
+        text-align: center;
+    }
+    .footer ul{
+        display: block;
+        margin: 20px 20px 10px;
+    }
+    .footer ul li{
+        padding: 3px 0px;
+    }
+}

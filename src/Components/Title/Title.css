@@ -1,0 +1,16 @@
+.Title{
+    text-align: center;
+    margin: 30px auto 10px;
+    text-transform: uppercase;
+}
+.Title h1{
+    font-size: 32px;
+    color: black;
+}
+.Title p{
+    font-size: 18px;
+    color: black;
+    text-transform: none;
+    font-weight: 600;
+    padding-top: 5px;
+}

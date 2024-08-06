@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    color: white;
+}
+body{
+    width: 100%;
+    background: rgba(128, 128, 128, 0);
+}
+.container{
+    padding-left:10%;
+    padding-right: 10%;
+}
+.btn{
+    background-color: white;
+    color: black;
+    padding: 12px 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+}
+#hi{
+    border-top: 100px;
+    color: red;
+}
+.btn.dark-btn{
+    background: rgba(12, 12, 243, 0.897);
+    color:white;
+}
+
+
+/*------------Media Query---------------*/
+
+@media (max-width:1200px){
+    .container{
+        padding-left:5%;
+        padding-right: 5%;
+    }
+}
